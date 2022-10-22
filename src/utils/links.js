@@ -3,7 +3,7 @@ import { AiFillHome, AiFillMessage } from "react-icons/ai";
 import { RiTeamFill } from "react-icons/ri";
 import {
   FaFacebookSquare,
-  FaTwitterSquare,
+  FaInstagramSquare,
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -53,15 +53,15 @@ const LinkComponent = ({ classLink }) => {
 
 const socialLink = [
   {
-    url: "https://www.facebook.com/",
+    url: "https://www.facebook.com/kom.edinburgh/",
     icon: <FaFacebookSquare className="nav-icon" />,
   },
   {
-    url: "https://twitter.com/home?lang=it",
-    icon: <FaTwitterSquare className="nav-icon" />,
+    url: "https://www.instagram.com/keeponmovingedinburgh/",
+    icon: <FaInstagramSquare className="nav-icon" />,
   },
   {
-    url: "https://www.youtube.com/",
+    url: "https://www.youtube.com/channel/UCN44dPGvWHVU5DTthSexOvA",
     icon: <FaYoutubeSquare className="nav-icon" />,
   },
 ];
@@ -72,7 +72,13 @@ const SocialComponent = ({ classSocial }) => {
       {socialLink.map((link) => {
         return (
           <li key={link.url} className="nav-item">
-            <a href={link.url} alt={link.url} className="nav-link">
+            <a 
+              href={link.url} 
+              alt={link.url} 
+              className="nav-link" 
+              target="_blank" 
+              rel="noreferrer"
+            >
               {link.icon}
             </a>
           </li>

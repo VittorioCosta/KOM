@@ -2,6 +2,9 @@ import React from "react";
 import { Hero } from "../components";
 import backImage from "../assets/image/Contact-hero.png";
 import useTitle from "../useTitle";
+import BtnBottom from "../components/BtnBottom";
+import { SocialComponent } from "../utils/links";
+import FormSignup from "../components/FormSignup";
 
 const ContactScreen = () => {
   useTitle("CONTACT");
@@ -12,80 +15,48 @@ const ContactScreen = () => {
           <div className="contact-hero-text">
             <div className="contact-hero-title">
               <h2 className="contact-title">
-                Vorresti aggiungere un cocktail?
+                Why choose Keep On Moving Edinburgh?
               </h2>
               <h4 className="contact-subtitle">
-                Il nostro team è sempre disponibile per valutare possibili nuove
-                ricette ed ad aggiungerle alla nostro database
+                Every moving home is different! Our team is always available to evaluate 
+                possible new solutions for the needs of our customers.
               </h4>
+              
             </div>
           </div>
-          <div className="contact-form-container container">
-            <form
-              className="contact-form container"
-              action="https://formspree.io/f/mgepggej"
-              method="POST"
-            >
-              <div className="form-group">
-                <label htmlFor="nome">Nome</label>
-                <input
-                  type="text"
-                  id="nome"
-                  name="nome"
-                  className="input"
-                  placeholder="Daniele"
-                />
-                <hr />
-              </div>
-              <div className="form-group">
-                <label htmlFor="cognome">Cognome</label>
-                <input
-                  type="text"
-                  id="cognome"
-                  name="cognome"
-                  className="input"
-                  placeholder="Tamarindo"
-                />
-                <hr />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  className="input"
-                  placeholder="daniele@esempio.com"
-                />
-                <hr />
-              </div>
-              <div className="form-group">
-                <label htmlFor="cellulare">Telefono</label>
-                <input
-                  type="cel"
-                  id="cellulare"
-                  name="cellulare"
-                  className="input"
-                  placeholder="555 555-5555"
-                />
-                <hr />
-              </div>
-              <div className="form-group">
-                <label htmlFor="ricetta">La tua ricetta</label>
-                <textarea
-                  type="tel"
-                  id="ricetta"
-                  name="ricetta"
-                  className="input"
-                  placeholder="Descrivi la tua ricetta"
-                />
-              </div>
-              <button className="btn btn-primary">Invia Ricetta</button>
-            </form>
+          <div className="form-content-container container">
+            <FormSignup />
           </div>
-          <form></form>
         </div>
       </Hero>
+      <div >
+        
+        <br/>
+        <h4 className='home-content-title'> Mobile: 0790 912 6369</h4>
+        <h4 className='home-content-title'> Office: 0131 661 7507</h4>
+        <h4 className='home-content-title'>Email: info@komoving.co.uk</h4>
+        <br/><br/><br/>
+        <BtnBottom />
+        <br/><br/><br/>
+        <h3 style={{textAlign:'center', fontSize:'98%'}}>
+          Thank you for visiting our website
+        </h3>
+
+        {/* <div className='home-logo'>
+          <img alt='logo' src={logo} />
+        </div> */}
+
+        <br/>
+        {/* <h4 className='home-content-title'> Keep On Moving Edinburgh</h4>
+        <h4 className='home-content-title'> 28 Steedman row</h4>
+        <h4 className='home-content-title'>Edinburgh , EH16 4FQ </h4> */}
+        <br/>
+        <br/>
+        
+        <SocialComponent classSocial="sidebar-social" />
+        
+        <br/><br/><br/>
+      </div>
       <div className="contact-screen"></div>
     </>
   );

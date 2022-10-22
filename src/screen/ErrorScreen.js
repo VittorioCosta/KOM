@@ -25,7 +25,7 @@ const ErrorScreen = () => {
         height={350}
       />
       <Link className="btn btn-primary" to="/">
-        Torna in Home
+        Back to Home
       </Link>
     </Wrapper>
   );

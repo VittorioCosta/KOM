@@ -17,7 +17,7 @@ const data = [
     id: 3,
     voto: 5,
     recensione:"Excellent service, bang on time and hard working. Very flexible and friendly and took good care of our stuff. They also collected a washing machine for us same day of asking which was above and beyond. Thanks guys.",
-    autore: "Rebecca and Antony",
+    autore: "Antony F.",
   },
   {
     id: 4,
@@ -244,6 +244,18 @@ const data = [
     voto: 5,
     recensione:"Absolutely fantastic guys. Turned up when they said they would and worked like trojans. I would 100% recommend these people.",
     autore: "Glynis M",
+  }, 
+  {
+    id: 41,
+    voto: 5,
+    recensione:"The guys were absolutely brilliant, friendly and efficient. They worked hard all day to move mountains of stuff. Nothing was too much trouble for them. I wouldn't hesitate to recommend them or use their services again.",
+    autore: "Anrew R.",
+  }, 
+  {
+    id: 42,
+    voto: 5,
+    recensione:"Great people, friendly and extremely professional! I hired them for a long distance home moving from Aberdeen to Edinburgh.",
+    autore: "Maria I.S.",
   }, 
   /* 
   {

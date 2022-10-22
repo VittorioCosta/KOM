@@ -5,9 +5,14 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-container">
         <h4 className="footer-text">
-          all &copy; reserved to{" "}
-          <span className="brand-color"> KOM Edinburgh </span>
+          Keep On  <span className="brand-color">Moving </span>Edinburgh
         </h4>
+        <h4 className="footer-text">28 Steedman row</h4>
+        <h4 className="footer-text">Edinburgh, EH16 4FQ</h4>
+        {/* <h4 className="footer-text">
+          all &copy; reserved to{" "}
+          
+        </h4> */}
       </div>
     </footer>
   );
