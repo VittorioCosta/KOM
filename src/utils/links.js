@@ -57,7 +57,7 @@ const socialLink = [
     icon: <FaFacebookSquare className="nav-icon" />,
   },
   {
-    url: "https://www.instagram.com/keeponmovingedinburgh/",
+    url: "https://www.instagram.com/ko_moving/",
     icon: <FaInstagramSquare className="nav-icon" />,
   },
   {

@@ -10,7 +10,7 @@ const BtnBottom = () => {
         </div>
         <div className='btn btn-primary bottom-btn'>
             <a  href='https://api.whatsapp.com/send?phone=447909126369'>
-            WHATS APP
+            WHATSAPP
             </a>
         </div>
         <div className='btn btn-primary bottom-btn'>

@@ -2,7 +2,8 @@ import React from "react";
 import { LinkComponent, SocialComponent } from "../utils/links";
 import { VscArrowSmallLeft } from "react-icons/vsc";
 import { useGlobalContext } from "../context";
-import logo from '../assets/image/logo.png';
+/* import logo from '../assets/image/logo.png'; */
+import logo from '../assets/image/logoNew.jpg';
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   const { closeSidebar, isSidebarOpen } = useGlobalContext();

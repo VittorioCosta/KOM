@@ -76,20 +76,20 @@ h4 {
   letter-spacing: var(--letter-spacing);
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 h4 {
-  font-size: 0.875rem;
+  font-size: 0.975rem;
 }
 p {
   color: var(--text-color);
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: var(--letter-spacing);
 }
 @media screen and (min-width: 753px) {
@@ -198,9 +198,17 @@ NAV STYLE
   align-items: center;
 }
 
+/* .nav-brand img {
+  width: 10rem;
+  margin-left: -1.1rem;
+  margin-top: .4rem;
+} */
+
 .nav-brand img {
-  width: 12rem;
-  margin-left: -1.5rem;
+  width: 14rem;
+  margin-left: -1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-toggler {
@@ -260,6 +268,11 @@ NAV STYLE MEDIA QUERY
 */
 
 @media screen and (min-width: 992px) {
+  html {
+    width:1024px;
+    margin:0 auto;
+    background-color: #fefefe;
+  }
   .nav {
     -moz-justify-content: space-around;
     -webkit-justify-content: space-around;
@@ -474,7 +487,7 @@ FOOTER STYLE
 }
 
 .brand-color {
-  color: var(--flickr-pink);
+  color: var(--text-color);
 }
 
 .brand-secondary-color {
@@ -500,7 +513,7 @@ HOME SCREEN
 
 .home-img-content {
   position: relative;
-  background: url('../src/assets/image/BGTEST.jpg') no-repeat center center/cover;
+  background: url('../src/assets/image/family.jpg') no-repeat center center/cover;
   -ms-background-size: center/cover;
   -o-background-size: center/cover;
   -moz-background-size: center/cover;
@@ -535,11 +548,11 @@ HOME SCREEN
   gap: 1rem;
   text-align: center;
   padding: 5rem;
-  text-shadow: 1px 2px var(--trypan-blue-2);
+  text-shadow: 2px 1px var(--dark-bg);
   font-family: 'Tiro Gurmukhi', serif;
 }
 .Moving {
-  font-size: 115%;
+  font-size: 105%;
 }
 
 .home-title-small {
@@ -550,7 +563,7 @@ HOME SCREEN
   gap: 1rem;
   text-align: center;
   place-items: top;
-  text-shadow: 2px 2px var(--trypan-blue-2);
+  text-shadow: 1px .5px var(--dark-bg);
 }
 
 .title-btn-group {
@@ -563,7 +576,7 @@ HOME SCREEN
   -ms-justify-content: center;
   justify-content: center;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 .title-btn {
   border: 1px solid var(--dark-bg);
@@ -593,7 +606,7 @@ HOME SCREEN
   display: -webkit-grid;
   display: grid;
   gap: 1rem;
-  text-align: center;
+  text-align: start;
   padding: 0 5%;
   margin-top: 2rem;
 }
@@ -603,7 +616,7 @@ HOME SCREEN
   display: -ms-flex;
   display: flex;
   margin: 1.3rem auto;
-  width: 80%;
+  width: 95%;
   text-align:start;
 }
 .free-stress {
@@ -613,7 +626,27 @@ HOME SCREEN
   display: grid;
   background: var(--peel-orange);
   padding: 1rem 10%;
-  margin: 2.5rem auto 0 auto;
+  /* margin: 2.5rem auto 0 auto; */
+  margin: 0 auto;
+  text-align: center;
+}
+.img-onlineReviews-container img {
+  margin: 30px auto ;
+  max-width: 100%;
+}
+.sharpscot {
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  display: grid;
+  background: var(--peel-orange);
+  padding: 1rem 10%;
+  /* margin: 2.5rem auto 0 auto; */
+  margin: 0 auto;
+  text-align: center;
+}
+.sharpscot > a > img {
+  width: 150px;
 }
 .home-logo {
   display: -moz-flex;
@@ -649,9 +682,19 @@ HOME SCREEN
   justify-content:center;
   width: 100%;
   padding: 0 10%;
+  flex-direction: column;
 }
 .bottom-btn {
-margin: 0 .4rem;
+margin: 1.5rem .4rem;
+width: 100%;
+text-align: center;
+}
+
+.vanHome img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -662,9 +705,21 @@ margin: 0 .4rem;
     width: 50%;
     margin: 0 auto;
   }
+  .bottom-btn-group {
+    flex-direction: row;
+    align-items: center;
+  }
+  .bottom-btn {
+    margin: 2rem 2rem;
+    }
 
 }
 
+/*
+====================
+END HOME SCREEN
+====================
+*/
 
 
 /* REVIEWS */
@@ -674,7 +729,7 @@ margin: 0 .4rem;
   color: var(--text-color);
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding: 0.9rem 1.8rem;
+  padding: 0.9rem npm1.8rem;
   width: fit-content;
 }
 
@@ -688,6 +743,7 @@ margin: 0 .4rem;
   position: relative;
   min-height: 400px;
   width: 100%;
+  top: -3rem;
 }
 
 .slide {
@@ -706,6 +762,7 @@ margin: 0 .4rem;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
+  margin-top: 10px;
 }
 
 .review {
@@ -773,7 +830,7 @@ ABOUT SCREEN
 ====================
 */
 .AboutScreen {
-  margin: 0;
+  margin: 0 60px;
   
 }
 
@@ -828,6 +885,10 @@ ABOUT SCREEN
     max-height:100%;
     max-width:100%;
   } */
+  .AboutScreen {
+    margin: 0 0px;
+    
+  }
 }
 
 
@@ -972,3 +1033,25 @@ END CONTACTS SCREEN
 END HERO STYLE
 ====================
 */
+
+.trustpilot-widget {
+  height: 100px;
+  width: 100px;
+}
+
+.partners a img {
+  margin-left: 52px;
+}
+.noAbout {
+  width: 90%;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 841px) {
+  .noAbout {
+    margin-left: 10px;
+  }
+  .partners a img {
+    margin-left: 10px;
+  }
+}

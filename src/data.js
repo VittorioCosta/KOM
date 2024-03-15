@@ -16,21 +16,21 @@ const data = [
   {
     id: 3,
     voto: 5,
-    recensione:"Excellent service, bang on time and hard working. Very flexible and friendly and took good care of our stuff. They also collected a washing machine for us same day of asking which was above and beyond. Thanks guys.",
+    recensione:"Excellent service, bang on time and hard working. Very flexible and friendly and took good care of our stuff. They also collected a washing machine for us same day of asking...",
     autore: "Antony F.",
   },
   {
     id: 4,
     voto: 5,
     recensione:
-      "Absolutely recommended! Tom and Victor are brilliant people who made our moving quick and fun. They will go absolutely above and beyond to accommodate your needs and they look after your stuff as if it were their own.",
+      "Absolutely recommended! Tom and Victor are brilliant people who made our moving quick and fun. They will go absolutely above and beyond to accommodate your needs and they look after your stuff...",
     autore: "Marco C.",
   },
   {
     id: 5,
     voto: 5,
     recensione:
-      "Tom and Victor were absolute stars are helping us get moved this week. Fantastic work etiquette and attitude and just really friendly. They made our move a very painless process, couldn't reccomend them enough 😊",
+      "Tom and Victor were absolute stars are helping us get moved this week. Fantastic work etiquette and attitude and just really friendly. They made our move a very painless process 😊 ...",
     autore: "Dan D.",
   },
   {
@@ -44,7 +44,7 @@ const data = [
     id: 7,
     voto: 5,
     recensione:
-      "I contacted Keep on moving for a last minute moving. Vittorio was very kind and quickly available, and in one hour everything was sorted out! Quick, professional and absolutely amazing!",
+      "I contacted KO Moving for a last minute moving. Vittorio was very kind and quickly available, and in one hour everything was sorted out! Quick, professional and absolutely amazing!",
     autore: "Ilaria R.",
   },
   {
@@ -56,7 +56,7 @@ const data = [
   {
   id: 9,
     voto: 5,
-    recensione:"Was made aware of Keep Moving through a friend and wow I'm so glad I chose them to complete my home move. Guys were so professional from start to finish. Thanks alot guys 5 star service !!!",
+    recensione:"Was made aware of KO Moving through a friend and wow I'm so glad I chose them to complete my home move. Guys were so professional from start to finish. Thanks alot guys 5 star service !!!",
     autore: "Steven P.",
   },
   {
@@ -68,7 +68,7 @@ const data = [
   {
     id: 11,
     voto: 5,
-    recensione:"What can I say about these guys. They were fantastic. Took all the stress out of my move and they went up and beyond to help. Can't recommend these guys highly enough. Just brilliant 👏 👌 😀 Thanks again guys 👍👍😁😊",
+    recensione:"They were fantastic. Took all the stress out of my move and they went up and beyond to help. Can't recommend these guys highly enough. Just brilliant 👏 👌 😀 Thanks again guys 👍👍😁😊",
     autore: "Julie B.",
   }, 
   {
@@ -80,7 +80,7 @@ const data = [
   {
     id: 13,
     voto: 5,
-    recensione:"Absolutely amazing guys! So helpful, so fast and so careful with all our things. Really great communication throughout, extremely efficient and affordable. Made us feel really comfortable, would highly recommend to anyone.",
+    recensione:"Absolutely amazing guys! So helpful, so fast and so careful with all our things. Really great communication throughout, extremely efficient and affordable. Made us feel really comfortable...",
     autore: "Stevie H.",
   }, 
   {
@@ -110,7 +110,7 @@ const data = [
   {
     id: 18,
     voto: 5,
-    recensione:"Keep on moving Edinburgh helped us on a very stressful moving day ! They stayed calm and patient and loaded up their van with skill . Reasonable cost and great communication",
+    recensione:"KO Moving helped us on a very stressful moving day ! They stayed calm and patient and loaded up their van with skill . Reasonable cost and great communication",
     autore: "Jacqueline D.",
   }, 
   {
@@ -122,7 +122,7 @@ const data = [
   {
     id: 20,
     voto: 5,
-    recensione:'I received an excellent service from this company very friendly and very professional. They were quick and efficient I cant fault them at all, I highly recommend "Keep On Moving Edinburgh".',
+    recensione:'I received an excellent service from this company very friendly and very professional. They were quick and efficient I cant fault them at all, I highly recommend "KO Moving".',
     autore: "Gianna W.",
   }, 
   {
@@ -248,7 +248,7 @@ const data = [
   {
     id: 41,
     voto: 5,
-    recensione:"The guys were absolutely brilliant, friendly and efficient. They worked hard all day to move mountains of stuff. Nothing was too much trouble for them. I wouldn't hesitate to recommend them or use their services again.",
+    recensione:"The guys were absolutely brilliant, friendly and efficient. They worked hard all day to move mountains of stuff. Nothing was too much trouble for them. I wouldn't hesitate to recommend...",
     autore: "Anrew R.",
   }, 
   {

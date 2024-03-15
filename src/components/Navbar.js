@@ -3,7 +3,8 @@ import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useGlobalContext } from "../context";
 import { LinkComponent, SocialComponent } from "../utils/links";
-import logo from '../assets/image/logo.png' 
+/* import logo from '../assets/image/logo.jpg'  */
+import logo from '../assets/image/logoNew.jpg' 
 const Navbar = () => {
   const { openSidebar } = useGlobalContext();
 

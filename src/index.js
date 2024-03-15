@@ -6,6 +6,9 @@ import { AppProvider } from "./context";
 
 import firebase from './utils/firebase'
 
+
+
+
 const root = createRoot(document.getElementById("root"));
 
 root.render(
